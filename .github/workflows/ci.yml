@@ -8,4 +8,8 @@ jobs:
     with:
       project_type: "basic"
       main_module: "calculator"
+      test_path: tests
+      python_versions: '["3.10", "3.11", "3.12"]'
       deploy: false
+      run_lint: true
+      run_security: true
